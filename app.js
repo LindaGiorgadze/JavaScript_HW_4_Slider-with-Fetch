@@ -52,5 +52,6 @@ fetch('https://us-central1-js04-b4877.cloudfunctions.net/api/slides')
 
             slidesContainer.style.left = '-' + (currentSlide * 100) + '%';
         })
-        });
+        })
     })
+    .catch( error => alert('Catch Error'));
